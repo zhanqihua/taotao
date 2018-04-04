@@ -228,7 +228,16 @@
                 <artifactId>freemarker</artifactId>
                 <version>${freemarker.version}</version>
             </dependency>
-
+            <dependency>
+                <groupId>fastdfs_client</groupId>
+                <artifactId>fastdfs_client</artifactId>
+                <version>1.25</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.catalina</groupId>
+                <artifactId>catalina</artifactId>
+                <version>6.0.26</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 

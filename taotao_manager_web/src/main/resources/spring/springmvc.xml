@@ -16,13 +16,23 @@
         <property name="prefix" value="/WEB-INF/jsp/"/>
         <property name="suffix" value=".jsp"/>
     </bean>
+    <!--配置多媒体文件上传解析器-->
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <property name="maxUploadSize" value="5242880"></property>
+        <property name="defaultEncoding" value="utf-8"></property>
+    </bean>
+
     <!-- 引用dubbo服务 -->
     <dubbo:application name="taotao_manager_web"/>
     <dubbo:registry protocol="zookeeper" address="192.168.25.133:2181"/>
-    <dubbo:reference interface="com.taotao.service.ItemService" id="itemService" />
+    <dubbo:reference interface="com.taotao.service.mapper.ItemService" id="itemService" />
+    <dubbo:reference interface="com.taotao.service.mapper.ItemCatService" id="itemCatService" />
+    <dubbo:reference interface="com.taotao.content.service.ContentCategoryService" id="contentCategoryService" />
+    <dubbo:reference interface="com.taotao.content.service.ContentService" id="contentService" />
+    <dubbo:reference interface="com.taotao.search.service.SearchItemService" id="searchItemService" timeout="100000" />
     <!--配置资源映射-->
    <!-- <mvc:resources mapping="/js/**" location="/js/"></mvc:resources>
     <mvc:resources mapping="/css/**" location="/css/"></mvc:resources>-->
-    <mvc:default-servlet-handler></mvc:default-servlet-handler>
-
+    <mvc:default-servlet-handler/>
+<context:property-placeholder location="classpath:resources/*.properties"></context:property-placeholder>
 </beans>

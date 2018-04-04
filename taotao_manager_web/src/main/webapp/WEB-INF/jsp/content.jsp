@@ -69,7 +69,7 @@ var contentListToolbar = [{
 			onLoad : function(){
 				var data = $("#contentList").datagrid("getSelections")[0];
 				$("#contentEditForm").form("load",data);
-				
+
 				// 实现图片
 				if(data.pic){
 					$("#contentEditForm [name=pic]").after("<a href='"+data.pic+"' target='_blank'><img src='"+data.pic+"' width='80' height='50'/></a>");	
@@ -77,9 +77,18 @@ var contentListToolbar = [{
 				if(data.pic2){
 					$("#contentEditForm [name=pic2]").after("<a href='"+data.pic2+"' target='_blank'><img src='"+data.pic2+"' width='80' height='50'/></a>");					
 				}
-				
-				contentEditEditor.html(data.content);
-			}
+
+                        var value = $("#contentList").datagrid("getSelections")[0].id;
+                        $.post("/content-edit-content",
+                            {"id" : value},
+                            function(result) {
+								/*debugger*/
+                                contentEditEditor.html(result.data);
+                            });
+
+
+
+            }
 		});    	
     }
 },{

@@ -91,7 +91,7 @@ KindEditor.plugin('map', function(K) {
 			'		}',
 			'	});',
 			'}',
-			'function search(address) {',
+			'function service(address) {',
 			'	if (!map) return;',
 			'	geocoder.geocode({address : address}, function(results, status) {',
 			'		if (status == google.maps.GeocoderStatus.OK) {',
@@ -129,7 +129,7 @@ KindEditor.plugin('map', function(K) {
 			}
 		});
 		K('.ke-map', div).replaceWith(iframe);
-		// search map
+		// service map
 		searchBtn.click(function() {
 			win.search(addressBox.val());
 		});

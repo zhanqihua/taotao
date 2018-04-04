@@ -85,7 +85,7 @@ KindEditor.plugin('baidumap', function(K) {
 			}
 		});
 		K('.ke-map', div).replaceWith(iframe);
-		// search map
+		// service map
 		searchBtn.click(function() {
 			win.search(addressBox.val());
 		});
