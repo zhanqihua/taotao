@@ -22,8 +22,8 @@ public class SearchItemServiceImpl implements SearchItemService {
     private SearchItemMapper mapper;
     @Autowired
     private SolrServer solrServer;
-@Autowired
-private SearchDao dao;
+    @Autowired
+    private SearchDao dao;
     @Override
     public TaotaoResult importAllIndex() throws Exception {
 
