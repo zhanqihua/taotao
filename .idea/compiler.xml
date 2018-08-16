@@ -1,8 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="taotao_common" />
+        <module name="taotao_content_interface" />
+        <module name="taotao_content_service" />
+        <module name="taotao_manager_dao" />
+        <module name="taotao_manager_interface" />
+        <module name="taotao_manager_pojo" />
+        <module name="taotao_manager_service" />
+        <module name="taotao_manager_web" />
+        <module name="taotao_portal_web" />
+        <module name="taotao_search_interface" />
+        <module name="taotao_search_service" />
+        <module name="taotao_search_web" />
+      </profile>
+    </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="taotao_common" target="1.8" />
+      <module name="taotao_content" target="1.8" />
+      <module name="taotao_content_interface" target="1.8" />
+      <module name="taotao_content_service" target="1.8" />
+      <module name="taotao_manager" target="1.8" />
+      <module name="taotao_manager_dao" target="1.8" />
+      <module name="taotao_manager_interface" target="1.8" />
+      <module name="taotao_manager_pojo" target="1.8" />
+      <module name="taotao_manager_service" target="1.8" />
+      <module name="taotao_manager_web" target="1.8" />
       <module name="taotao_parent" target="1.8" />
+      <module name="taotao_portal_web" target="1.8" />
+      <module name="taotao_search" target="1.8" />
+      <module name="taotao_search_interface" target="1.8" />
+      <module name="taotao_search_service" target="1.8" />
+      <module name="taotao_search_web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

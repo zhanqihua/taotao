@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="com.taotao.AppTest" time="0.005" errors="0" skipped="0">
+  <properties>
+    <property name="idea.version" value="2017.2.6"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="E:\Program Files (x86)\Java\jdk1.8.0_151\jre\bin"/>
+    <property name="java.vm.version" value="25.151-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="H:\IDEA\IdeaProjects\taotao_parent\taotao_common"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="idea.launcher.port" value="58742"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="H:\IDEA\IdeaProjects\taotao_parent\taotao_common"/>
+    <property name="java.runtime.version" value="1.8.0_151-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="E:\Program Files (x86)\Java\jdk1.8.0_151\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="archetypeCatalog" value="internal"/>
+    <property name="classworlds.conf" value="E:\applications\maven\apache2-maven-3.3.9\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="E:\Program Files (x86)\Java\jdk1.8.0_151\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\Program Files\apache-tomcat-7.0.52\bin;E:\Program Files\TortoiseGit\bin;E:\Program Files (x86)\Java\jdk1.8.0_151\bin;E:\Program Files (x86)\Java\jdk1.8.0_151\jre\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="maven.repo.local" value="E:\applications\JavaTools\Maven"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="idea.launcher.bin.path" value="E:\Program Files\JetBrains\IntelliJ IDEA 2017.2.3\bin"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="尼古拉斯"/>
+    <property name="java.class.path" value="E:\applications\maven\apache2-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar;E:\Program Files\JetBrains\IntelliJ IDEA 2017.2.3\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="E:\Program Files (x86)\Java\jdk1.8.0_151\jre"/>
+    <property name="sun.java.command" value="com.intellij.rt.execution.application.AppMainV2 org.codehaus.classworlds.Launcher -Didea.version=2017.2.6 -s E:\applications\maven\apache2-maven-3.3.9\conf\settings.xml -Dmaven.repo.local=E:\applications\JavaTools\Maven install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_151"/>
+    <property name="java.ext.dirs" value="E:\Program Files (x86)\Java\jdk1.8.0_151\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="E:\Program Files (x86)\Java\jdk1.8.0_151\jre\lib\resources.jar;E:\Program Files (x86)\Java\jdk1.8.0_151\jre\lib\rt.jar;E:\Program Files (x86)\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;E:\Program Files (x86)\Java\jdk1.8.0_151\jre\lib\jsse.jar;E:\Program Files (x86)\Java\jdk1.8.0_151\jre\lib\jce.jar;E:\Program Files (x86)\Java\jdk1.8.0_151\jre\lib\charsets.jar;E:\Program Files (x86)\Java\jdk1.8.0_151\jre\lib\jfr.jar;E:\Program Files (x86)\Java\jdk1.8.0_151\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="E:\applications\maven\apache2-maven-3.3.9"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase classname="com.taotao.AppTest" name="testApp" time="0.005"/>
+</testsuite>

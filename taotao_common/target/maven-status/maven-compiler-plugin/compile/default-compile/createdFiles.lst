@@ -1,0 +1,7 @@
+com\taotao\utils\JsonUtils.class
+com\taotao\pojo\SearchResult.class
+com\taotao\pojo\TaotaoResult.class
+com\taotao\pojo\SearchItem.class
+com\taotao\pojo\EasyUIDataGridResult.class
+com\taotao\pojo\EasyUITreeNode.class
+com\taotao\utils\IDUtils.class
